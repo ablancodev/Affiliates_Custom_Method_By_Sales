@@ -10,10 +10,9 @@ class ACM {
 
 	/*
 	 * In this case:
-	 * 0 <= num_referrals <= 10    rate= 10%
-	 * 10 < num_referrals <= 20    rate= 20%
-	 * 20 < num_referrals <= 30    rate= 30%
-	 * 30 < num_referrals          rate= $max_rate = 50%
+	 * 0 <= num_referrals <= 30    rate= 25%
+	 * 30 < num_referrals <= 100    rate= 20%
+	 * 100 < num_referrals          rate= $max_rate = 10%
 	 */
 	public static $rates = array(
                         '30' => 0.25,
