@@ -16,12 +16,12 @@ class ACM {
 	 * 30 < num_referrals          rate= $max_rate = 50%
 	 */
 	public static $rates = array(
-			'1' => 0.10,
-			'2' => 0.20,
-			'3' => 0.30
-	);
-	public static $max_rate = 0.50;
-	
+                        '30' => 0.25,
+                       '100' => 0.20
+        );
+        public static $max_rate = 0.10;
+		
+		
 	
 	public static function init() {
 		if ( class_exists( 'Affiliates_Referral' ) ) {
